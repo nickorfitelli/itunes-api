@@ -1,0 +1,32 @@
+GET
+x List all songs /songs
+x Find song by id /song/:trackid (number)
+x Find songs by name /song/:artistname (string)
+ xFind songs by album id /song/album/:albumid (sting collection id)
+xFind songs by album name /song/album/:albumname  (collection name)
+
+PATCH
+xUpdate song information by id
+
+DELETE
+x Delete a song by id
+
+PUT
+xAdd a new song
+
+xAdd data for more than one artist then add the following endpoint
+
+x Find song by artist id
+x Find song by artist name
+
+
+Stretch goal...Add music video data for multiple artists and add the following endpoints
+xList all videos
+xFind video by id
+xFind video by name
+Find video by album id (collection id)
+Find songs by album name (collection name)
+Update video information by id
+Delete a video by id
+Add a new video
+
